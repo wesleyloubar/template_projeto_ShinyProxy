@@ -39,7 +39,7 @@ RUN R -q -e "install.packages(c('shiny', 'rmarkdown'))"
 # Bibliotecas necessárias para execução do aplicativo
 RUN R -q -e "install.packages('shinyalert')"
 
-RUN  R -q -e "install.packages('shinydashboard')"
+RUN  R -q -e "install.packages('Rmpfr')"
 
 RUN  R -q -e "install.packages('plotly')"
 
