@@ -21,7 +21,9 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get -y install unzip
 RUN apt-get -y update
 
+
 RUN apt-get -y upgrade
+RUN apt-get install apt-utils
 RUN apt-get install -y wget 
 # Baixa aplicação exemplo do Github
 RUN wget "https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/raw/main/euler.zip"
