@@ -24,10 +24,10 @@ RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get install -y wget 
 # Baixa aplicação exemplo do Github
-RUN wget "https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/raw/main/app.zip"
+RUN wget "https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/raw/main/euler.zip"
 
 # Descompacta e copia o conteudo para a pasta da aplicação
-RUN unzip app.zip -d /root/app
+RUN unzip euler.zip -d /root/euler
 
 #RUN cp app /root/app
 
