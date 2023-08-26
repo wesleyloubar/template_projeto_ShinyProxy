@@ -2,6 +2,9 @@ FROM openanalytics/r-ver:4.1.3
 
 LABEL maintainer="Wesley L Barbosa <wesleyloubar@hotmail.com>"
 
+RUN apt-get -y update
+RUN apt-get -y upgrade
+RUN apt-get install apt-utils
 # Bibliotecas/pacotes úteis para configuração do aplicativo
 RUN apt-get update && apt-get install --no-install-recommends -y \
     pandoc \
@@ -19,11 +22,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get -y install unzip
-RUN apt-get -y update
 
 
-RUN apt-get -y upgrade
-RUN apt-get install apt-utils
 RUN apt-get install -y wget 
 # Baixa aplicação exemplo do Github
 RUN wget "https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/raw/main/euler.zip"
