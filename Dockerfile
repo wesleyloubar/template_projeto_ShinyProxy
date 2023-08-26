@@ -62,4 +62,4 @@ RUN  R -q -e "install.packages('shinyjs')"
 
 EXPOSE 3838
 
-CMD ["R", "-q", "-e", "shiny::runApp('/root/app')"]
+CMD ["R", "-q", "-e", "shiny::runApp('/root/euler')"]
