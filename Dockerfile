@@ -56,7 +56,7 @@ RUN  R -q -e "install.packages('shinyjs')"
 
 #COPY app /root/app
 
-COPY Rprofile.site /usr/local/lib/R/etc/
+# COPY Rprofile.site /usr/local/lib/R/etc/
 
 EXPOSE 3838
 
