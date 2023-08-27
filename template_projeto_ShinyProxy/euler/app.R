@@ -127,7 +127,13 @@ server <- function(input, output, session){
             style = "color: white; background-color:#3c8dbc;
                                  padding: 10px 15px; width: 150px; cursor: pointer;
                                  font-size: 18px; font-weight: 600;")
-          
+
+          ,HTML('
+               <h3 dir="auto" tabindex="-1">Logins</h3>
+<h4 dir="auto" style="text-align: left;" tabindex="-1"><a id="user-content-emails-usuario1-usuario2-usuario3--usuario10-" class="anchor" href="https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/blob/main/template_projeto_ShinyProxy/README.md#emails-usuario1-usuario2-usuario3--usuario10-" aria-hidden="true"></a><strong>Emails</strong>: usuario1, usuario2, usuario3, ..., usuario10</h4>
+<h4 dir="auto" style="text-align: left;" tabindex="-1"><a id="user-content-senha-123456" class="anchor" href="https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/blob/main/template_projeto_ShinyProxy/README.md#senha-123456" aria-hidden="true"></a><strong>Senha</strong>: 123456</h4>
+<p>&nbsp;</p>
+                ')
           # ,shinyjs::hidden(div(
           #   id = "nomatch"
           #   ,tags$p(
