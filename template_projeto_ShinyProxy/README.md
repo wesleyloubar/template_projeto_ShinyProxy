@@ -7,6 +7,6 @@ O Dockerfile também contém as instruções necessárias para a construção da
 
 ![LOGIN](https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/blob/main/imagens/login.PNG?raw=true)
 
-![INTERFACE](https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/blob/main/imagens/interface.PNG?raw=true.
+![INTERFACE](https://github.com/wesleyloubar/TrabalhoFinalComputacaoEmNuvem/blob/main/imagens/interface.PNG?raw=true).
 
 imagens/interface.PNG
