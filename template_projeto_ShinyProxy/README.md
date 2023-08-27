@@ -1,22 +1,10 @@
 
-# ShinyProxy Template
+# Projeto Final PSI5120 - Computação em Nuvem
 
-This repository provides a template to deploy your own Shiny apps on [ShinyProxy](https://www.shinyproxy.io).
+Este repositório fornece o aplicativo e informações necessárias para a disponiblização do aplicativo exemplo do trablho final.
 
-Full explanation on the contents of this repository is offered at
+O Dockerfile também contém as instruções necessárias para a construção da imagem do aplicativo.
 
-https://www.shinyproxy.io/documentation/deploying-apps/
+![LOGIN](imagens/login.PNG)
 
-The purpose of this repository is to customize it for your needs, but if you want to build a Docker image from the Dockerfile in this repository, navigate into the root directory of this repository and run
-
-```
-sudo docker build -t openanalytics/shinyproxy-template .
-```
-
-Running the image for testing purposes outside ShinyProxy can be done using e.g.
-
-```
-sudo docker run -it -p 3838:3838 openanalytics/shinyproxy-template
-```
-
-**(c) Copyright Open Analytics NV, 2016-2022.**
+![INTERFACE](imagens/INTERFACE.PNG)
